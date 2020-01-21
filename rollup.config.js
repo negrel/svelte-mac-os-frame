@@ -1,5 +1,4 @@
 import svelte from 'rollup-plugin-svelte';
-import autoPreprocess from 'svelte-preprocess';
 import resolve from 'rollup-plugin-node-resolve';
 import pkg from './package.json';
 
@@ -15,9 +14,7 @@ export default {
 		{ file: pkg.main, 'format': 'umd', name }
 	],
 	plugins: [
-		svelte({
-			preprocess: autoPreprocess()
-		}),
+		svelte(),
 		resolve()
 	]
 };

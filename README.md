@@ -2,7 +2,7 @@
 ![npm version](https://img.shields.io/npm/v/svelte-mac-os-frame-div?color=green)
 # svelte-mac-os-frame
 
-> A mac os frame like svelte component.
+> A mac os window frame svelte component.
 
 ### Installation
 

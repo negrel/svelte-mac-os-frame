@@ -24,12 +24,16 @@ export let title = "";
 	border-radius: .5em;
 	overflow: hidden;
 	box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2), 0 12px 17px 2px rgba(0, 0, 0, 0.14), 0 5px 22px 4px rgba(0, 0, 0, 0.12);
+	width: fit-content;
+	height: fit-content;
 }
 
 .mac-os-frame_header {
 	position: relative;
-	padding: .5em .75em;
 	display: flex;
+	padding: .5em .75em;
+	width: fit-content;
+	height: fit-content;
 	justify-content: space-between;
 	background: rgb(201,200,206);
 	background: linear-gradient(0deg, rgba(201,200,206,1) 0%, rgba(230,229,241,1) 100%);}
@@ -68,6 +72,8 @@ export let title = "";
 }
 
 .mac-os-frame_body {
+	width: fit-content;
+	height: fit-content;
 	background-color: white;
 }
 </style>
