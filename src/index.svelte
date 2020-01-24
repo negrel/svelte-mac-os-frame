@@ -21,23 +21,32 @@ import { onMount } from 'svelte';
 export let title = "";
 
 // Background color props
-export let headerStyle = '',
-	titleStyle = '',
-	bodyStyle = '';
+export let headerStyle = {},
+	titleStyle = {},
+	bodyStyle = {};
 
 let header,
 	headerText,
 	body;
 
-// $: header.style = headerStyle || {};
-// $: body.style = bodyStyle || {};
+$: {
+	style(header, headerStyle);
+	style(headerText, titleStyle);
+	style(body, bodyStyle);
+}
 
 onMount(() => {
-	Object.assign(header.style, headerStyle);
-	Object.assign(headerText.style, titleStyle);
-	Object.assign(body.style, bodyStyle);
+	style(header, headerStyle);
+	style(headerText, titleStyle);
+	style(body, bodyStyle);
 });
 
+// Style the HTML el
+function style(el, style) {
+	if (el) {
+		Object.assign(el.style, style);
+	}
+}
 
 </script>
 
