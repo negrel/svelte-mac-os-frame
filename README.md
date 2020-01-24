@@ -4,8 +4,7 @@
 
 > A mac os window frame svelte component.
 
-Basic :
-![](https://raw.githubusercontent.com/negrel/svelte-mac-os-frame/master/resources/frame1.jpg)
+![](https://raw.githubusercontent.com/negrel/svelte-mac-os-frame/master/resources/frame2.jpeg)
 
 ### Installation
 
@@ -17,7 +16,7 @@ npm install svelte-mac-os-frame
 
 Live example [here](https://negrel.dev/svelte-fullpage.js/#page2).
 
-##### Customized example: 
+**Customized example:**
 
 ```html
 <script>
@@ -40,7 +39,7 @@ Live example [here](https://negrel.dev/svelte-fullpage.js/#page2).
 </MacOsFrame>
 ```
 
-![](https://raw.githubusercontent.com/negrel/svelte-mac-os-frame/master/resources/frame1.jpg)
+![](https://raw.githubusercontent.com/negrel/svelte-mac-os-frame/master/resources/frame1.jpeg)
 
 
 ### :stars: Show Your Support
